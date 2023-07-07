@@ -1,0 +1,22 @@
+Vérification -> api précédante ( erreur trouver)
+Manque de la creation d'une valeur
+
+----------
+
+On envoie en paramètre "type_modifaction" (texte = 'valider' / 'dévalider')
+
+1) Rechercher le statut actuelle
+2) Calculer le futur statut en fonction de type-modification et value - statut acutel
+3) Récupérer ce qu'il y a dans les api's actuel /action_exercice_budgetaire/{action_exercice_budgetaire_id}/statut_budget 
+4) Update le statut dans A-Exb
+
+Terminer
+
+Il ne me reste plus qu'à : 
+
+Crée le custom state dans bubble ( type_modification)
+TRUE = VALIDER / FALSE = DEVALIDER
+Faire un test sur l'api
+Et peut être essayer de paramètrer tout les changements de statut dans cette API pour épurer le site.
+
+----------
