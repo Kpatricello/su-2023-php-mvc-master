@@ -7,7 +7,6 @@
 ## Sommaire 
 
 Pour commencer voici un petit sommaire de comment vas s'organiser notre rendu.
-    ( liste pour le sommaire )
 1. Présentation du sujet
 2. Les ressources que nous avions à diposition
 3. Nos choix
@@ -18,6 +17,25 @@ Pour commencer voici un petit sommaire de comment vas s'organiser notre rendu.
 ## 1. Présentation du sujet 
 
 Le sujet étais le suivant : 
+
+Pour la notation du projet, l'idée de base c'est de partir de ce qu'on fait ensemble, pour :
+Améliorer un composant applicatif, exemple :
+Routing : gestion des paramètres d'URL, attribut PHP8 pour déclarer les routes, enregistrement automatique des routes au bootstrap de l'application, etc...
+Injection de dépendance :
+Instanciation des services à la volée plutôt que directement au bootstrap de l'application
+Utilisation d'un composant tel que symfony/dependency-injection ou php-di/php-di
+Développer de nouvelles choses au sein de l'application, en gardant en tête le fait que ça peut être réutilisable :
+Upload de fichier
+Gestionnaire de session
+Sécurité : authentification et/ou autorisations (rôles)
+Si vous n'utilisez pas Doctrine mais PDO : couche applicative pour communiquer avec la base de données
+etc...
+
+Vous pouvez également partir sur votre propre solution, même inspirée de ce qu'on a commencé ensemble, comme Guillaume l'a fait par exemple. Il a ajouté des tests avec phpunit, ce qui permet d'explorer une autre direction dans les développements. Le fait d'ajouter des tests le force donc à écrire du code correctement isolé.
+
+Si vous n'êtes pas très à l'aise avec PHP, ou que vous ne l'utilisez pas souvent, rien ne vous empêche de faire des choses plus "simples" : plus de contrôleurs avec différentes fonctionnalités (affichage de listes, formulaire de contact...). Le but est de savoir s'orienter correctement au sein d'une telle application, et être capable de venir y développer de nouvelles choses.
+
+Enfin, vous rédigerez un compte-rendu de vos travaux dans le README du dépôt que vous m'enverrez. Ce compte-rendu, rédigé en Markdown, fera état de ce que vous avez fait, des problématiques rencontrées, etc...Il fera partie de la note, probablement 4 ou 5 points, je pense.
 
 
 ## 2. Les ressources que nous avions à dispotion 
